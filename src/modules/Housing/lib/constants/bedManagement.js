@@ -1,0 +1,21 @@
+export const bedManagementConstants = {
+  TEAM_LABEL: 'Team',
+  TEAM_NAME: 'team_id',
+  COMPLEX_LABEL: 'Complex',
+  COMPLEX_NAME: 'complex_id',
+
+  SEARCH_REPS_LABEL: "Search Sales Rep's",
+  SEARCH_REPS_NAME: 'reps_search_query',
+  SEARCH_SPS_LABEL: "Search Service Pro's",
+  SEARCH_SPS_NAME: 'sps_search_query',
+  SEASON_FILTER_LABEL: 'Season',
+  SEASON_FILTER_NAME: 'season_period',
+  HOUSING_TYPE_FILTER_LABEL: 'Housing type',
+  HOUSING_TYPE_FILTER_NAME: 'apartment_types',
+  ROOMS_FILTER_LABEL: 'Rooms',
+  ROOMS_FILTER_NAME: 'number_of_rooms',
+  BEDS_FILTER_LABEL: 'Beds',
+  BEDS_FILTER_NAME: 'number_of_available_sleeping_spots',
+  VIEW_BY_COMPLEX: 'View by complex',
+  VIEW_BY_TEAM: 'View by team',
+};

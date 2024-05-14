@@ -1,0 +1,23 @@
+@import 'leaflet/dist/leaflet.css';
+
+.rep-bubble-anchor {
+  visibility: hidden;
+}
+
+.rep-bubble-tooltip.leaflet-tooltip {
+  z-index: 600;
+  background: #374151;
+  color: #FFF;
+  border: 0px;
+}
+
+.rep-bubble-tooltip.leaflet-tooltip-top:before,
+.rep-bubble-tooltip.leaflet-tooltip-left:before,
+.rep-bubble-tooltip.leaflet-tooltip-bottom:before,
+.rep-bubble-tooltip.leaflet-tooltip-right:before {
+  border-top-color: #374151;
+}
+
+.leaflet-popup-content p {
+  margin: 10px 0;
+}

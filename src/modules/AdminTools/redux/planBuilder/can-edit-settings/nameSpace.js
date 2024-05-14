@@ -1,0 +1,1 @@
+export { nameSpace } from '../nameSpace';

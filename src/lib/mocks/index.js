@@ -1,0 +1,1 @@
+export { statesMock } from './statesMock';

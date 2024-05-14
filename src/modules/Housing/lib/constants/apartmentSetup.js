@@ -1,0 +1,27 @@
+export const apartmentSetupConstants = {
+  COMPLEX_TYPE_NAME: 'type',
+  COMPLEX_NAME: 'name',
+  DEALER_NAME: 'dealer_id',
+  EMAIL_NAME: 'email',
+  PHONE_NAME: 'phone',
+  STREET_ADDRESS_NAME: 'street',
+  CITY_NAME: 'city',
+  STATE_NAME: 'state',
+  ZIP_NAME: 'zip',
+  CONTACT_PERSON_NAME : 'contact',
+  TEAMS_NAME: 'team_ids',
+
+  COMPLEX_TYPE_LABEL: 'Complex Type',
+  COMPLEX_LABEL: 'Complex Name',
+  DEALER_LABEL: 'Dealer',
+  EMAIL_LABEL: 'Email Address',
+  PHONE_LABEL: 'Phone Number',
+  STREET_ADDRESS_LABEL: 'Street Address',
+  CITY_LABEL: 'City',
+  STATE_LABEL: 'State',
+  ZIP_LABEL: 'Zip',
+  CONTACT_PERSON_LABEL: 'Contact Person',
+  TEAMS_LABEL: 'Teams',
+
+  APARTMENT_SEARCH_NAME: 'apartmentSearch',
+};

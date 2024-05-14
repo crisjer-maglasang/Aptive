@@ -1,0 +1,37 @@
+const dataKeys = {
+  RECRUIT_NAME_KEY: 'name',
+  COMPLETION_KEY: 'completion',
+  MANAGER_INTERVIEW_KEY: 'manager_interview',
+  NEED_INTERVIEW_KEY: 'need_interview',
+  PERSONAL_INFO_KEY: 'personal_info',
+  HOUSING_VEHICLE_KEY: 'housing_vehicle',
+  UNIFORM_SWAG_KEY: 'uniform_swag',
+  LICENSING_KEY: 'licensing',
+  HR_INFO_KEY: 'hr_info',
+  PERCENT_ITEMS_COMPLETED_KEY: 'percent_items_completed',
+  SIGNED_KEY: 'signed',
+  TRUE_SIGNED_KEY: 'true_signed',
+  PENDING_KEY: 'pending',
+  PENDING_CONTRACTS_KEY: 'pending_contracts',
+  ONBOARDING_COMPLETE_KEY: 'onboarding_complete',
+  DOWNLINE_COUNT_KEY: 'downlineCount',
+  AGREEMENTS_SENT_KEY: 'agreementsSent',
+  AGREEMENTS_SIGNED_KEY: 'agreementsSigned',
+  PENDING_SIGNATURE_KEY: 'pendingSignature',
+  TEAM_LEADER: 'team_leader',
+  RECRUITER: 'recruiter',
+  RECRUIT: 'recruit',
+  REGIONAL: 'regional',
+
+  // ICONS KEYS
+  USERS_GROUP_ICON: 'usersGroup',
+  USER_ADD_ICON: 'userAdd',
+  PENCIL_ICON: 'pencil',
+  USER_ICON: 'user',
+  CHECK_CIRCLE_ICON: 'checkCircle',
+  USERS_ICON: 'users',
+  LINK_ICON: 'link',
+  BADGE_ICON: 'badge',
+};
+
+export default dataKeys;

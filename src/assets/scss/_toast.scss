@@ -1,0 +1,31 @@
+@import '/node_modules/react-toastify/scss/main';
+
+.#{$rt-namespace} {
+  &__toast-body {
+    font-size: .875rem;
+    line-height: 1.25rem;
+
+    & > div:last-child {
+      overflow-wrap: anywhere;
+      word-break: normal;
+    }
+  }
+}
+
+:root {
+  --toastify-color-light: theme('colors.white');
+  --toastify-color-dark: theme('colors.gray.900');
+  --toastify-color-info: theme('colors.cyan.500');
+  --toastify-color-success: theme('colors.green.500');
+  --toastify-color-warning: theme('colors.yellow.500');
+  --toastify-color-error: theme('colors.red.500');
+  --toastify-color-transparent: rgba(255, 255, 255, 0.65);
+
+  --toastify-font-family: theme('fontFamily.sans');
+
+  --toastify-text-color-light: theme('colors.gray.600');
+  --toastify-text-color-dark: theme('colors.white');
+
+  --toastify-spinner-color: theme('colors.gray.600');
+  --toastify-spinner-color-empty-area: theme('colors.gray.200');
+}

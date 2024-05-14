@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/lib*": [
+        "src/lib/*"
+      ],
+      "@/components*": [
+        "src/components/*"
+      ],
+      "@/api*": [
+        "src/api/*"
+      ],
+      "@/redux/*": [
+        "src/redux/*"
+      ],
+      "@/modules/*": [
+        "src/modules/*"
+      ],
+      "@/hooks*": [
+        "src/hooks/*"
+      ],
+      "@/routing/*": [
+        "src/routing/*"
+      ]
+    }
+  }
+}
